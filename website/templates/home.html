@@ -14,15 +14,13 @@
 <br>
 <form method="POST" action="{% url 'home' %}">
     {% csrf_token %}
-    <form>
-        <div class="form-group">
-          <input type="text" name="username" class="form-control" aria-describedby="emailHelp" placeholder="Username" required> <br>
-        </div>
-        <div class="form-group">
-          <input type="password" name="password" class="form-control" placeholder="Password" required> <br>
-        </div>
-        <button type="submit" class="btn btn-secondary">Login</button>
-      </form>
+    <div class="form-group">
+      <input type="text" name="username" class="form-control" aria-describedby="emailHelp" placeholder="Username" required> <br>
+    </div>
+    <div class="form-group">
+      <input type="password" name="password" class="form-control" placeholder="Password" required> <br>
+    </div>
+    <button type="submit" class="btn btn-secondary">Login</button>
 </form>
 
 </div>

@@ -1,21 +1,20 @@
-# Python
-*.pyc
-*.pyo
-*.pyd
-__pycache__/
-*.swp
-*.swo
-
-# Django
-db.sqlite3
 *.log
-
-# Virtual environment
-venv/
-env/
-*.env
-
-# IDEs and Editors
-.idea/
-.vscode/
-*.code-workspace
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+*.bak
+.env 
+.venv 
+env/ 
+venv/ 
+ENV/ 
+env.bak/ 
+venv.bak/ 
+.vscode/* 
+!.vscode/settings.json 
+!.vscode/tasks.json 
+!.vscode/launch.json 
+!.vscode/extensions.json 
+.history

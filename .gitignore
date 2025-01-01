@@ -1,20 +1,30 @@
-*.log
-*.pot
+# Python-related files
 *.pyc
-__pycache__
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.env
+
+# Django files
 db.sqlite3
-media
+/static/
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Deployment files
 *.bak
-.env 
-.venv 
-env/ 
-venv/ 
-ENV/ 
-env.bak/ 
-venv.bak/ 
-.vscode/* 
-!.vscode/settings.json 
-!.vscode/tasks.json 
-!.vscode/launch.json 
-!.vscode/extensions.json 
-.history
+*.orig
